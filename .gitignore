@@ -31,7 +31,7 @@ coverage
 node_modules/
 
 # Compiled output
-/dist/
+#/dist/
 
 # Environment variables
 .env.local
