@@ -16,7 +16,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: '/LegalApp/frontend/src/main.js', // Path to your main.js file
+        main: '/src/main.js', // Path to your main.js file
       },
     },
   },
