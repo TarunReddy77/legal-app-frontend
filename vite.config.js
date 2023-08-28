@@ -16,7 +16,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: 'frontend/index.html' // Adjust the path as needed
+        main: './index.html' // Adjust the path as needed
       }
     }
   }
