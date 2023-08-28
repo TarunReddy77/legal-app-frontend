@@ -12,12 +12,12 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
-  // build: {
-  //   rollupOptions: {
-  //     input: {
-  //       main: './index.html' // Adjust the path as needed
-  //     }
-  //   }
-  // }
+  },
+  build: {
+    rollupOptions: {
+      input: {
+        main: './src/main.js', // Path to your main.js file
+      },
+    },
+  },
 })
