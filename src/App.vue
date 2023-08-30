@@ -72,7 +72,10 @@ export default {
             <img src="./assets/balance.png" alt="No image found">
           </div>
           <div class="mb-3 mt-5">
-            <h1 class="display-4">Welcome to <span class="text-warning fw-bold">Legal Aid ChatBot</span></h1>
+<!--            <h1 class="display-4">Welcome to <span class="text-warning fw-bold">Legal Aid ChatBot</span></h1>-->
+            <h1 class="display-4">Hi, this is <span class="text-warning fw-bold">Shailu the Robot</span></h1>
+            <h3 class="lead text-center"> Ask me something </h3>
+
           </div>
           <div class="my-3">
             <textarea class="form-control-lg" rows="5" cols="50" v-model="userQuestion"
