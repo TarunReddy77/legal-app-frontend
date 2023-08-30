@@ -16,11 +16,11 @@ export default {
       backendUrl: 'https://legal-aid-chatbot-2ba2b124b39a.herokuapp.com/ask',
       responseData: null,
       userQuestions: [
-        "How does this work?",
-        "Can you provide an example?",
-        "Who is a lawyer?",
-        "What is a court?",
-        "Explain term 'tribunal'."
+        // "How does this work?",
+        // "Can you provide an example?",
+        // "Who is a lawyer?",
+        // "What is a court?",
+        // "Explain term 'tribunal'."
       ]
     };
   },
