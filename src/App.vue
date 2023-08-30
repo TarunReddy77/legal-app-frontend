@@ -73,7 +73,7 @@ export default {
           </div>
           <div class="mb-3 mt-5">
 <!--            <h1 class="display-4">Welcome to <span class="text-warning fw-bold">Legal Aid ChatBot</span></h1>-->
-            <h1 class="display-4">Hi, this is <span class="text-warning fw-bold">Shailu the Robot</span></h1>
+            <h1 class="display-4">Hi, this is <span class="text-warning fw-bold">Ram the Robot</span></h1>
             <h3 class="lead text-center"> Ask me something </h3>
 
           </div>
