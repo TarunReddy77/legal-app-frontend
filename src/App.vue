@@ -13,6 +13,7 @@ export default {
       isDarkTheme: false,
       isLoading: false,
       userQuestion: '',
+      backendUrl: 'https://legal-aid-chatbot-2ba2b124b39a.herokuapp.com/ask',
       responseData: null,
       userQuestions: [
         "How does this work?",
@@ -32,7 +33,7 @@ export default {
     async sendQuestion() {
       try {
         this.isLoading = true;
-        const response = await axios.post("http://localhost:8000/ask", { question: this.userQuestion });
+        const response = await axios.post(this.backendUrl, { question: this.userQuestion });
         this.responseData = response.data.answer;
         this.isLoading = false;
         this.userQuestions.push(this.userQuestion);
