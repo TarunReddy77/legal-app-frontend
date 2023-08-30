@@ -13,11 +13,11 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  build: {
-    rollupOptions: {
-      input: {
-        main: '/src/main.js', // Path to your main.js file
-      },
-    },
-  },
+  // build: {
+  //   rollupOptions: {
+  //     input: {
+  //       main: '/src/main.js', // Path to your main.js file
+  //     },
+  //   },
+  // },
 })
